@@ -1,0 +1,72 @@
+/* PAGE RDV */
+
+header {
+  background: rgba(0, 0, 0, 0.452);
+  height: 100px;
+  box-shadow: 4px 4px 10px rgb(255, 255, 255);
+}
+
+.nav-item {
+  margin-bottom: 2px;
+  margin: 2px;
+}
+
+#ul a {
+  color: white;
+}
+
+#ul a:hover {
+  display: block;
+  border-bottom: 2px solid white;
+  color: blue;
+}
+
+
+body {
+  background: rgb(22, 0, 0);
+  background-image: url("images/tattoos/img12.jpg");
+  background-size: auto 75%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center left;
+}
+
+
+#logo {
+  width: 70px;
+  height: 70px;
+  margin: 0;
+}
+
+
+#box {
+  border: 4px solid black;
+  background: rgb(126, 14, 14);
+  width: 500px;
+  height: 500px;
+  float: right;
+}
+
+@media screen and (max-width: 855px) 
+{
+  body {
+    width: auto;
+  }
+
+  nav {
+    width: auto;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  .nav-link {
+    padding: 1px;
+    margin: 0;
+  }
+
+  .nav-item:hover {
+    border-bottom: 0;
+  }
+}

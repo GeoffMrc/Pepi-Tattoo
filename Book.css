@@ -1,0 +1,79 @@
+/*  PAGE BOOK  */
+header {
+  background: rgba(0, 0, 0, 0.452);
+  height: 100px;
+  box-shadow: 4px 4px 10px rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+
+.nav-item {
+  margin-bottom: 2px;
+  margin: 2px;
+}
+
+#ul a {
+  color: white;
+}
+
+#ul a:hover {
+  display: block;
+  border-bottom: 2px solid white;
+  color: blue;
+}
+
+
+body {
+  background-image: url("images/tattoos/img9.jpg");
+  background-size: auto 75%;
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+
+#logo {
+  width: 70px;
+  height: 70px;
+  margin: 0;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+#btn {
+  text-align: center;
+  margin: 20px;
+}
+
+p {
+  color: rgb(8, 5, 192);
+}
+
+@media screen and (max-width: 1355px) {
+  p {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 855px) {
+  body {
+    width: auto;
+  }
+
+  nav {
+    width: auto;
+    height: auto;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  .nav-link {
+    padding: 1px;
+    margin: 0;
+  }
+
+}
