@@ -27,7 +27,35 @@
   <div class="container">
     <div class="row justify-content-end m-3">
       <div class="col-auto" id="box">
-        CALENDRIER DE PRISE DE RDV    
+        <form>
+          <fieldset>
+            <legend>Demande de renseignements</legend>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="lastName">Nom :</label>
+                <input type="text" class="form-control" name="lastName" id="lastName" placeholder="Votre nom...">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="firstName">Prénom :</label>
+                <input type="text" class="form-control" name="firstName" id="firstName" placeholder="Votre prénom..." required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="tel">N° de téléphone :</label>
+              <input type="text" class="form-control" name="tel" id="tel" placeholder="06xxxxxxxx" required>
+            </div>
+            <div class="form-group">
+              <label for="reseaux">Réseaux sociaux :</label>
+              <input type="text" class="form-control" name="reseaux" id="reseaux" placeholder="Facebook/Instagram">
+            </div>
+            <div class="form-group">
+              <label for="description">Description :</label>
+              <textarea type="text" class="form-control" name="description" id="description" placeholder="Décrivez votre idée..."></textarea>
+              <small id="descriptionHelpBlock" class="form-text text-muted">Décrivez votre projet (dessin, taille, partie du corps...)</small>
+            </div>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+          </fieldset>
+        </form> 
       </div>
     </div>
   </div>

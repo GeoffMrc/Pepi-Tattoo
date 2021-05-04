@@ -31,20 +31,36 @@ body {
   background-position: center left;
 }
 
-
 #logo {
   width: 70px;
   height: 70px;
   margin: 0;
 }
 
-
 #box {
-  border: 4px solid black;
-  background: rgb(126, 14, 14);
+  background: rgb(66, 0, 0);
   width: 500px;
   height: 500px;
   float: right;
+  padding: 10px;
+  position: relative;
+  top: 90px;
+}
+
+legend {
+  border: 2px solid black;
+  background: rgb(43, 0, 0);
+  color: white;
+  text-align: center;
+}
+
+label {
+  color: white;
+}
+
+.btn {
+  float: right;
+  margin-right: 20px;
 }
 
 @media screen and (max-width: 855px) 
